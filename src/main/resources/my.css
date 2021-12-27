@@ -1,0 +1,7 @@
+.button:focused {
+    -fx-background-color: #0798c0;
+}
+
+.button:hover {
+    -fx-background-color: gold;
+}

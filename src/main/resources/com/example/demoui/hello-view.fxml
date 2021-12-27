@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.TextField?>
+
+
+<?import javafx.scene.control.PasswordField?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.demoui.HelloController">
+
+    <Label
+            AnchorPane.topAnchor="10"
+            AnchorPane.leftAnchor="140"
+            AnchorPane.rightAnchor="120"
+            text="Login"/>
+
+    <TextField
+            AnchorPane.topAnchor="40"
+            AnchorPane.leftAnchor="120"
+            AnchorPane.rightAnchor="120"
+            id="textField"
+            fx:id="textField"
+            onAction="#onHelloButtonClick"/>
+
+    <Label
+            AnchorPane.topAnchor="75"
+            AnchorPane.leftAnchor="130"
+            AnchorPane.rightAnchor="120"
+            text="Password"/>
+
+    <PasswordField
+            AnchorPane.topAnchor="100"
+            AnchorPane.leftAnchor="120"
+            AnchorPane.rightAnchor="120"
+            id="passField"
+            fx:id="passField" />
+
+    <Label  style="-fx-text-fill: red"
+            AnchorPane.topAnchor="140"
+            AnchorPane.leftAnchor="105"
+            AnchorPane.rightAnchor="60"
+            fx:id="text"/>
+
+    <Button
+             AnchorPane.leftAnchor="5"
+             AnchorPane.rightAnchor="5"
+             AnchorPane.bottomAnchor="40"
+             text="Login" onAction="#onHelloButtonClick">
+    </Button>
+
+    <Button AnchorPane.leftAnchor="5"
+            AnchorPane.rightAnchor="5"
+            AnchorPane.bottomAnchor="10"
+            text="Exit" onAction="#onExitButtonClick">
+    </Button>
+
+</AnchorPane>
