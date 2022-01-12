@@ -21,7 +21,7 @@ public class HelloController {
     protected void onHelloButtonClick(ActionEvent event) {
         String s = textField.getText();
         String s1 = passField.getText();
-        if (!(s.equals(testBasaPass.log) && s1.equals(testBasaPass.pass))) {
+        if (!(s.equals(testBasaPass.getLog()) && s1.equals(testBasaPass.getPass()))) {
             text.setText("Sorry! Please try again!");
         }
     }
