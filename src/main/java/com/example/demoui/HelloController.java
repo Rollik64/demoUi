@@ -8,7 +8,7 @@ import javafx.scene.control.TextField;
 
 
 public class HelloController {
-    TestBasaPass testBasaPass = new TestBasaPass();
+    Person testBasaPass = new Person();
 
     @FXML
     private Label text;
