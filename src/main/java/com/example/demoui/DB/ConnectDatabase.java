@@ -1,4 +1,4 @@
-package com.example.demoui;
+package com.example.demoui.DB;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
