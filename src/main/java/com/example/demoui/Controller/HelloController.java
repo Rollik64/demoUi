@@ -1,4 +1,4 @@
-package com.example.demoui;
+package com.example.demoui.Controller;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

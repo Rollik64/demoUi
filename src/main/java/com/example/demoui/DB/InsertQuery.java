@@ -11,9 +11,9 @@ public class InsertQuery {
         int result = 0;
         try {
             Class.forName("org.hsqldb.jdbc.JDBCDriver");
-            con = DriverManager.getConnection("jdbc:hsqldb:file:HSQLDB (Local)", "root", "root");
+            con = DriverManager.getConnection("jdbc:hsqldb:file:MyHSQLDB", "root", "root");
             stmt = con.createStatement();
-            result = stmt.executeUpdate("INSERT INTO account VALUES (1,'vasya', '12345678')");
+            result = stmt.executeUpdate("INSERT INTO tutorials_tbl VALUES ('vasya1', '12345678')");
             con.commit();
         }catch (Exception e) {
             e.printStackTrace(System.out);

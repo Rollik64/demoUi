@@ -15,4 +15,6 @@ module com.example.demoui {
     exports com.example.demoui;
     exports com.example.demoui.DB;
     opens com.example.demoui.DB to javafx.fxml;
+    exports com.example.demoui.Controller;
+    opens com.example.demoui.Controller to javafx.fxml;
 }

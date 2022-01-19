@@ -4,11 +4,10 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.control.TextField?>
-
-
 <?import javafx.scene.control.PasswordField?>
+
 <AnchorPane xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.demoui.HelloController">
+            fx:controller="com.example.demoui.Controller.HelloController">
 
     <Label
             AnchorPane.topAnchor="10"
