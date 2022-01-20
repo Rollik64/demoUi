@@ -7,6 +7,8 @@ import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 
+import java.io.IOException;
+
 
 public class HelloController {
 
@@ -18,9 +20,7 @@ public class HelloController {
     private PasswordField passField;
 
     @FXML
-    protected void onHelloButtonClick(ActionEvent event) {
-        RootView.start();
-        RootView.launch();
+    protected void onHelloButtonClick(ActionEvent event) throws IOException {
      /*
         String s = textField.getText();
         String s1 = passField.getText();
@@ -28,6 +28,7 @@ public class HelloController {
             text.setText("Sorry! Please try again!");
         }
      */
+        new RootView();
     }
 
     @FXML
