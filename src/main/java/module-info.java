@@ -1,4 +1,4 @@
-module com.example.demoui {
+module com.example.demoui.View {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;

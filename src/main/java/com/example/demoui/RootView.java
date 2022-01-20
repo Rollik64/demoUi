@@ -1,4 +1,4 @@
-package com.example.demoui.View;
+package com.example.demoui;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

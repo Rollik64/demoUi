@@ -1,5 +1,6 @@
 package com.example.demoui.Controller;
 
+import com.example.demoui.RootView;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
@@ -18,13 +19,15 @@ public class HelloController {
 
     @FXML
     protected void onHelloButtonClick(ActionEvent event) {
+        RootView.start();
+        RootView.launch();
+     /*
         String s = textField.getText();
         String s1 = passField.getText();
-       /*
         if (!(s.equals() && s1.equals())) {
             text.setText("Sorry! Please try again!");
         }
-       */
+     */
     }
 
     @FXML
