@@ -7,4 +7,9 @@ public class RootController {
 
     @FXML
     private Label text;
+
+    @FXML
+    protected void ButtonTest() {
+        System.exit(0);
+    }
 }

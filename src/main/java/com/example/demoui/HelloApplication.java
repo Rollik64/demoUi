@@ -12,8 +12,8 @@ public class HelloApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        scene.getStylesheets().add(0, "my.css");
-        stage.setTitle("Rucombiconⓟ");
+        scene.getStylesheets().add(0, "hello.css");
+        stage.setTitle("Security Controlⓟ");
         stage.setScene(scene);
         stage.show();
     }

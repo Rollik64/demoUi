@@ -5,3 +5,7 @@
 .button:hover {
     -fx-background-color: gold;
 }
+
+.root {
+    -fx-background-image: url("https://www.google.com/images/srpr/logo3w.png");
+}

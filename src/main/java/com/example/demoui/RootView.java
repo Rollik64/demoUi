@@ -1,7 +1,5 @@
 package com.example.demoui;
 
-import com.example.demoui.Controller.HelloController;
-import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
@@ -15,7 +13,7 @@ public class RootView {
         Stage primaryStage = new Stage();
         FXMLLoader fxmlLoader = new FXMLLoader(RootView.class.getResource("root-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 720, 450);
-        scene.getStylesheets().add(0, "my.css");
+        scene.getStylesheets().add(0, "hello.css");
         primaryStage.setTitle("Rucombiconⓟ");
         primaryStage.setScene(scene);
         primaryStage.show();

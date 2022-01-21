@@ -6,10 +6,17 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 
+<?import javafx.scene.control.Button?>
 <AnchorPane xmlns:fx="http://javafx.com/fxml"
             fx:controller="com.example.demoui.Controller.RootController">
     <Label
             text="Hi!"/>
+
+    <Button AnchorPane.leftAnchor="5"
+            AnchorPane.rightAnchor="5"
+            AnchorPane.bottomAnchor="10"
+            text="Exit" onAction="#ButtonTest">
+    </Button>
 
 
 </AnchorPane>
