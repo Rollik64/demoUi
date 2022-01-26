@@ -1,4 +1,4 @@
-module com.example.demoui.View {
+module com.example.demoui {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -8,7 +8,7 @@ module com.example.demoui.View {
     requires validatorfx;
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
-    requires eu.hansolo.tilesfx;
+    //requires eu.hansolo.tilesfx;
     requires java.sql;
 
     opens com.example.demoui to javafx.fxml;

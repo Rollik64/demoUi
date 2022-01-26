@@ -3,10 +3,11 @@ package com.example.demoui.Controller;
 import com.example.demoui.RootView;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
-
+import javafx.stage.Window;
 import java.io.IOException;
 
 
@@ -18,6 +19,8 @@ public class HelloController {
     private TextField textField;
     @FXML
     private PasswordField passField;
+    @FXML
+    private Button onHelloButtonClick;
 
     @FXML
     protected void onHelloButtonClick(ActionEvent event) throws IOException {
@@ -28,7 +31,12 @@ public class HelloController {
             text.setText("Sorry! Please try again!");
         }
      */
+
+        //Открываем основное окно приложения
         new RootView();
+        //Закрываем окно регистрации
+        Window stage = onHelloButtonClick.getScene().getWindow();
+        stage.hide();
     }
 
     @FXML

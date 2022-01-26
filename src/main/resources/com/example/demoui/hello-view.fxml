@@ -42,7 +42,7 @@
             AnchorPane.rightAnchor="60"
             fx:id="text"/>
 
-    <Button
+    <Button  fx:id="onHelloButtonClick"
              AnchorPane.leftAnchor="5"
              AnchorPane.rightAnchor="5"
              AnchorPane.bottomAnchor="40"
